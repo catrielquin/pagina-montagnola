@@ -999,7 +999,7 @@ section {
 --------------------------------------------------------------*/
 .testimonials {
   padding: 80px 0;
-  height: 60vh;
+  height: 55vh;
   background: url("../img/cta-bg.jpg") no-repeat;
   background-position: center center;
   background-size: cover;
@@ -1187,115 +1187,6 @@ section {
   margin: 0 2px;
 }
 
-/*--------------------------------------------------------------
-# Pricing
---------------------------------------------------------------*/
-.pricing .box {
-  padding: 20px;
-  background: #fff;
-  text-align: center;
-  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.12);
-  border-radius: 5px;
-  position: relative;
-  overflow: hidden;
-}
-
-.pricing h3 {
-  font-weight: 400;
-  margin: -20px -20px 20px -20px;
-  padding: 20px 15px;
-  font-size: 16px;
-  font-weight: 600;
-  color: #777777;
-  background: #f8f8f8;
-}
-
-.pricing h4 {
-  font-size: 36px;
-  color: #1acc8d;
-  font-weight: 600;
-  font-family: "Poppins", sans-serif;
-  margin-bottom: 20px;
-}
-
-.pricing h4 sup {
-  font-size: 20px;
-  top: -15px;
-  left: -3px;
-}
-
-.pricing h4 span {
-  color: #bababa;
-  font-size: 16px;
-  font-weight: 300;
-}
-
-.pricing ul {
-  padding: 0;
-  list-style: none;
-  color: #444444;
-  text-align: center;
-  line-height: 20px;
-  font-size: 14px;
-}
-
-.pricing ul li {
-  padding-bottom: 16px;
-}
-
-.pricing ul i {
-  color: #1acc8d;
-  font-size: 18px;
-  padding-right: 4px;
-}
-
-.pricing ul .na {
-  color: #ccc;
-  text-decoration: line-through;
-}
-
-.pricing .btn-wrap {
-  margin: 20px -20px -20px -20px;
-  padding: 20px 15px;
-  background: #f8f8f8;
-  text-align: center;
-}
-
-.pricing .btn-buy {
-  background: #1acc8d;
-  display: inline-block;
-  padding: 8px 35px 10px 35px;
-  border-radius: 50px;
-  color: #fff;
-  transition: none;
-  font-size: 14px;
-  font-weight: 400;
-  font-family: "Montserrat", sans-serif;
-  font-weight: 600;
-  transition: 0.3s;
-}
-
-.pricing .btn-buy:hover {
-  background: #149f6e;
-}
-
-.pricing .featured h3 {
-  color: #fff;
-  background: #1acc8d;
-}
-
-.pricing .advanced {
-  width: 200px;
-  position: absolute;
-  top: 18px;
-  right: -68px;
-  transform: rotate(45deg);
-  z-index: 1;
-  font-size: 14px;
-  padding: 1px 0 3px 0;
-  background: #1acc8d;
-  color: #fff;
-}
 
 /*--------------------------------------------------------------
 # Contact
@@ -1439,10 +1330,12 @@ section {
 # Footer
 --------------------------------------------------------------*/
 #footer {
+ 
   background: #0a8246;
-  padding: 0 0 30px 0;
+  padding: 0 0 0 0;
   color: #fff;
-  font-size: 14px;
+  font-size: 20px;
+  text-align: center;
 }
 
 
@@ -1452,9 +1345,8 @@ section {
 
 #footer .footer-top .footer-info {
   margin-bottom: 15px;
-  background: #e4eae7;
+  background: transparent;
   color: #161313;
-  border-top: 4px solid #1acc8d;
   text-align: center;
   padding: 30px 20px;
 }
@@ -1475,27 +1367,30 @@ section {
 }
 
 #footer .footer-top .social-links a {
-  font-size: 18px;
+  font-size: 70px;
   display: inline-block;
   color: #fff;
   line-height: 1;
   padding: 8px 0;
-  margin-right: 4px;
+  margin: 0 20px;
   border-radius: 50%;
   text-align: center;
   width: 36px;
-  height: 36px;
+  height: 100px;
   transition: 0.3s;
 }
 
 #footer .footer-top .social-links a:hover {
+  font-size: 80px;
   background: #1acc8d;
   color: #fff;
   text-decoration: none;
+  width: 110px; 
+  height: 100px;
 }
 
 #footer .footer-top h4 {
-  font-size: 16px;
+  font-size: 15px;
   font-weight: 600;
   color: #fff;
   position: relative;
