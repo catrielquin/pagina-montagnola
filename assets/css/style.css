@@ -152,6 +152,27 @@ h6 {
   max-height: 40px;
 }
 
+.centered-button {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  text-align: center;
+
+  border-bottom: #13a773;
+  background-color: #1acc8d;
+
+}
+
+.centered-button:hover {
+  background-color: #ed3c0d;
+  /* Cambia el color cuando el mouse está sobre el botón */
+}
+
+.centered-button:active {
+  background-color: #ed3c0d;
+  /* Cambia el color cuando se hace clic */
+}
+
 /*--------------------------------------------------------------
 # Navigation Menu
 --------------------------------------------------------------*/
@@ -581,7 +602,8 @@ h6 {
   height: 60px;
   z-index: 5;
   position: relative;
-  transform: scaleY(-1); /* Voltear verticalmente */
+  transform: scaleY(-1);
+  /* Voltear verticalmente */
 }
 
 .wave1 use {
@@ -1088,7 +1110,7 @@ section {
 }
 
 .testimonials .swiper-pagination .swiper-pagination-bullet-active {
-  
+
   background-color: #13a439;
 }
 
@@ -1330,11 +1352,11 @@ section {
 # Footer
 --------------------------------------------------------------*/
 #footer {
- 
+
   background: #0a8246;
   padding: 0 0 0 0;
   color: #fff;
-  font-size: 20px;
+  font-size: 1px;
   text-align: center;
 }
 
@@ -1351,7 +1373,7 @@ section {
   padding: 30px 20px;
 }
 
-#footer .footer-top .footer-info h3 {
+#footer .footer-top .footer-info h6 {
   font-size: 24px;
   margin: 0 0 20px 0;
   padding: 2px 0 2px 0;
@@ -1360,14 +1382,14 @@ section {
 }
 
 #footer .footer-top .footer-info p {
-  font-size: 14px;
+  font-size: 24px;
   line-height: 24px;
   margin-bottom: 0;
   font-family: "Montserrat", sans-serif;
 }
 
 #footer .footer-top .social-links a {
-  font-size: 70px;
+  font-size: 40px;
   display: inline-block;
   color: #fff;
   line-height: 1;
@@ -1381,12 +1403,11 @@ section {
 }
 
 #footer .footer-top .social-links a:hover {
-  font-size: 80px;
-  background: #1acc8d;
+  font-size: 22px;
   color: #fff;
   text-decoration: none;
-  width: 110px; 
-  height: 100px;
+  width: 36px;
+  height: 36px;
 }
 
 #footer .footer-top h4 {
@@ -1485,58 +1506,4 @@ section {
   #footer .footer-top .footer-info {
     margin: -20px 0 30px 0;
   }
-}
-
-/* Estilo para la sección "Welcome to Campus" */
-.welcome-campus {
-  background: #f8f9fa;
-  /* Color de fondo */
-  padding: 80px 0;
-}
-
-.welcome-campus h2 {
-  font-size: 36px;
-  /* Tamaño del título */
-  color: #343a40;
-  /* Color del texto */
-}
-
-.welcome-campus p {
-  font-size: 18px;
-  /* Tamaño del texto */
-  color: #6c757d;
-  /* Color del texto */
-}
-
-.welcome-campus ul {
-  list-style: none;
-  padding: 0;
-}
-
-.welcome-campus ul li {
-  font-size: 16px;
-  /* Tamaño de los elementos de la lista */
-  color: #6c757d;
-  /* Color del texto */
-  margin-bottom: 10px;
-}
-
-.welcome-campus .btn-learn-more {
-  background: #007bff;
-  /* Color de fondo del botón */
-  color: #fff;
-  /* Color del texto del botón */
-  font-size: 18px;
-  /* Tamaño del texto del botón */
-  padding: 10px 20px;
-  /* Espaciado del botón */
-  text-decoration: none;
-  border-radius: 4px;
-  /* Bordes redondeados */
-  transition: background-color 0.3s ease-in-out;
-}
-
-.welcome-campus .btn-learn-more:hover {
-  background: #000000;
-  /* Cambia el color de fondo al pasar el cursor por encima */
 }
